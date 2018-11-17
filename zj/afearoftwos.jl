@@ -1,4 +1,2 @@
-using Base.Iterators
-x=[0,1,3:9...]
-f(n)=n==0 ? x : vec([x+y for (x,y) in product(x.*10^n,f(n-1))])
-vcat(sort(f(5))[2:end],Int(1e6))
+x=1:Int(1e6)
+x[[!occursin(r"2","$x") for x in x]]
