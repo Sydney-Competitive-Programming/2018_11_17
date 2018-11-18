@@ -115,6 +115,6 @@ for pair in ladder:
 
 print
 
-print "Found "+snakesLen +" Ladders (total "+snakesLen+"):"
+print "Found "+snakesLen +" Snakes (total "+snakesLen+"):"
 for pair in snakes:
     print pair[0],"to", pair[1]
